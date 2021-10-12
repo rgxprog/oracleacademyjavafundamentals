@@ -17,12 +17,12 @@ public class GallonsToLiters {
 
 		Scanner scan = new Scanner(System.in);
 		float gallons, liters;
-		final float galToLits = 3.78541f;
+		final float GAL_TO_LIT = 3.78541f;
 		
 		System.out.print("Galones: ");
 		gallons = scan.nextFloat();
 		
-		liters = gallons * galToLits;
+		liters = gallons * GAL_TO_LIT;
 		System.out.println(gallons + " gallons = " + liters + " liters");
 		
 		scan.close();
